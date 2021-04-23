@@ -420,6 +420,10 @@ h3.custom-heading {
     margin-top: 14px;
 }
 
+#row-brands {
+    margin-bottom: 35px;
+}
+
 #row-brands h3.custom-heading {
     border-top: 1px solid #eef0ea;
     padding-top: 25px;
@@ -1145,4 +1149,10 @@ Media query
         padding-right: 15px;
     }
 
+}
+
+@media (max-width:768px) {
+    .brand-products {
+        margin-bottom: 20px;
+    }
 }
